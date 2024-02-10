@@ -15,7 +15,7 @@ def find_and_process_csv():
 
 
     if not files:
-        st.warning("No hay archivos en la carpeta.")
+        st.warning("No hay archivos en la carpeta")
         return
 
     selected_file = show_file_selection(files)
