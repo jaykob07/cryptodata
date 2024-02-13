@@ -5,7 +5,20 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import os
 
-st.header(":bar_chart: Here you can filter the crypto along with the date you want")
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"]{
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #000000, #e5e5f7), repeating-radial-gradient(circle at center center, #000000, #000000, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+}
+<style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+st.header(" :bar_chart: Here you can filter the crypto along with the date you want ")
+
+
 
 
 
